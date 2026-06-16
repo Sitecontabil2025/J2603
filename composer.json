@@ -1,0 +1,12 @@
+{
+    "name": "modelos-juridicos/m2601",
+    "description": "Legal Website",
+    "authors": [
+        {
+            "name": "Wagner"
+        }
+    ],
+    "require": {
+        "phpmailer/phpmailer": "^7.0"
+    }
+}
