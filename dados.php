@@ -99,7 +99,7 @@ function get_materias($url = "https://jurisite.com.br/noticias_juridicas/json?li
 
 // FUNÇÃO PARA MODIFICAR A REGIÃO
 setlocale(LC_TIME, "pt_BR", "pt_BR.utf-8", "pt_BR.utf-8", "portuguese");
-date_default_timezone_set("America/Sação_Paulo");
+date_default_timezone_set("America/Sao_Paulo");
 
 function link_site($link = null){
     $base = $_SERVER["REQUEST_SCHEME"] . '://' . $_SERVER['HTTP_HOST'] . str_replace( basename( $_SERVER['SCRIPT_NAME'] ) , '', $_SERVER['SCRIPT_NAME'] );
